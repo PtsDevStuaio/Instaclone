@@ -2,46 +2,116 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HTML</title>
-  
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home – PT Social</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- <p>Nothing to see here...</p> -->
-  <!-- Project -->
-  <nav>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
     <p class="add">+</p>
+
     <div class="logo">
-      <img src="khudka.jpg" alt="" />
+      <img src="khudka.jpg" alt="logo">
     </div>
+
     <div class="tool">
-      
-    <p class="mass"><i class="bi bi-chat-right-text-fill"></i></p>
-    <!-- <p><i class="bi bi-suit-heart"></i></p> -->
-    <p class="noti">❤️</p>
+      <p class="mass"><i class="bi bi-chat-right-text-fill"></i></p>
+      <p class="noti">❤️</p>
     </div>
-  <!-- <i class="bi bi-suit-heart"></i> -->
   </nav>
-  <div class="post">
-    <p class="poster">Instagram_black</p>
-    <a class="title">the brand is brand #instagram_black</a>
-    <div class="postimg">
-      
-    <img src="in.jpg" alt="" />
+
+
+  <!-- POSTS -->
+  <div class="posts">
+
+    <!-- POST 1 -->
+    <div class="post">
+
+      <div class="post-header">
+        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=300" class="post-pic">
+        <div class="post-user">@instagram_black</div>
+        <button class="follow-btn">Follow</button>
+      </div>
+
+      <a class="title">The brand is brand #instagram_black</a>
+
+      <div class="postimg">
+        <img src="in.jpg">
+      </div>
+
+      <div class="post-actions">
+        <button class="like-btn"><i class="bi bi-heart"></i></button>
+        <button class="comment-btn"><i class="bi bi-chat"></i></button>
+        <button class="share-btn"><i class="bi bi-send"></i></button>
+      </div>
     </div>
+
+
+    <!-- POST 2 -->
+    <div class="post">
+
+      <div class="post-header">
+        <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=300" class="post-pic">
+        <div class="post-user">@nature_world</div>
+        <button class="follow-btn">Follow</button>
+      </div>
+
+      <a class="title">Peaceful mountains ⛰️</a>
+
+      <div class="postimg">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+      </div>
+
+      <div class="post-actions">
+        <button class="like-btn"><i class="bi bi-heart"></i></button>
+        <button class="comment-btn"><i class="bi bi-chat"></i></button>
+        <button class="share-btn"><i class="bi bi-send"></i></button>
+      </div>
+    </div>
+
+
+    <!-- POST 3 -->
+    <div class="post">
+
+      <div class="post-header">
+        <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=300" class="post-pic">
+        <div class="post-user">@tech_update</div>
+        <button class="follow-btn">Follow</button>
+      </div>
+
+      <a class="title">New phone released 🔥</a>
+
+      <div class="postimg">
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f">
+      </div>
+
+      <div class="post-actions">
+        <button class="like-btn"><i class="bi bi-heart"></i></button>
+        <button class="comment-btn"><i class="bi bi-chat"></i></button>
+        <button class="share-btn"><i class="bi bi-send"></i></button>
+      </div>
+    </div>
+
   </div>
+
+
+
+  <!-- FOOTER -->
   <div class="footer">
     <a class="homebtn"><i class="bi bi-house"></i></a>
-    <a class="Sbtn"><i class="bi bi-search"></i></a>
+    <a class="Sbtn" href="search.html"><i class="bi bi-search"></i></a>
     <a class="add">+</a>
-    <a class="Reelsbtn"><img width="48" height="48" src="https://img.icons8.com/color/48/instagram-reel.png" alt="instagram-reel"/></a>
+    <a class="Reelsbtn" href="reels.html">
+      <img width="34" src="https://img.icons8.com/color/48/instagram-reel.png">
+    </a>
     <a class="Youbtn" href="profile.html"><i class="bi bi-person-circle"></i></a>
   </div>
-  <script src="main.js"></script>
+
+  <script src="script.js"></script>
 </body>
 </html>

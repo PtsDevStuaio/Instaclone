@@ -1,20 +1,72 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="profile.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="profile.css" />
 </head>
 
 <body>
-  <nav>
-    <p class="username">Amol Teli</p>
-  </nav>
-  <script src="main.js">
-    
-  </script>
-</body>
 
+  <!-- NAV BAR -->
+  <nav>
+    <p class="username">AmolTeli✔️</p>
+    <i class="bi bi-gear settings-btn"></i>
+  </nav>
+
+  <!-- PROFILE HEADER -->
+  <section class="profile-header">
+    <img class="pfp" src="user.jpg" alt="Profile pic">
+
+    <div class="stats">
+      <div><p class="number">2</p><span>Posts</span></div>
+      <div><p class="number">101 M</p><span>Followers</span></div>
+      <div><p class="number">120</p><span>Following</span></div>
+    </div>
+  </section>
+    <p>Follwered By <a>@NarendraModiOfficial✔️</a></p>
+
+  <!-- BIO -->
+  <section class="bio">
+    <p class="name">Amol Teli</p>
+    <p class="about">Editor • Developer • Gamer</p>
+  </section>
+
+  <!-- EDIT BUTTON -->
+  <div class="edit-btn">
+    <button>Edit Profile</button>
+  </div>
+
+  <!-- POSTS GRID -->
+  <section class="posts-grid">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" />
+    <img src="https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?w=600" />
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" />
+  </section>
+
+  <!-- SETTINGS PANEL -->
+  <div class="settings-panel" id="settingsPanel">
+    <div class="settings-box">
+      <h3>Settings</h3>
+        <li class="close-panel">Close</li>
+      <ul>
+        <li>Account</li>
+        <li>Privacy</li>
+        <li>Notifications</li>
+        <li>Help</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <a class="homebtn" href="index.html"><i class="bi bi-house"></i></a>
+    <a class="Sbtn"><i class="bi bi-search"></i></a>
+    <a class="add">+</a>
+    <a class="Reelsbtn"><img width="32" src="https://img.icons8.com/color/48/instagram-reel.png"/></a>
+    <a class="Youbtn" href="profile.html"><i class="bi bi-person-circle"></i></a>
+  </div>
+  <script src="profile.js"></script>
+</body>
 </html>

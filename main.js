@@ -1,11 +1,9 @@
-const add = document.getElementsByClassName(".add")
-const home = document.querySelector(".homebtn")
-const profile = document.querySelector(".Youbtn")
-profile.addEventListener("click", 
-  ()=>{
-    window.location.href = "profile.html";
-  }
-)
-const user = prompt("enter username")
-const username = document.querySelector(".username")
-username.innerHTML = user;
+const homePage = document.getElementById("homePage");
+const searchPage = document.getElementById("searchPage");
+const reelsPage = document.getElementById("reelsPage");
+
+const homeBtn = document.getElementById("homeBtn");
+const searchBtn = document.getElementById("searchBtn");
+const reelsBtn = document.getElementById("reelsBtn");
+
+// Hide all pages
